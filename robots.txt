@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /dance
+Disallow: /README.md
+Disallow: /sh
