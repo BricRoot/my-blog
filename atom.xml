@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用WireGuard访问OpenWrt路由器下的局域网设备</title>
-    <link href="https://bricawa.com/posts/undefined/"/>
-    <id>https://bricawa.com/posts/undefined/</id>
+    <link href="https://bricawa.com/posts/33211/"/>
+    <id>https://bricawa.com/posts/33211/</id>
     <published>2024-09-03T17:03:35.000Z</published>
     <updated>2024-09-03T17:06:50.553Z</updated>
     
@@ -73,9 +73,9 @@
     <category term="折腾日记" scheme="https://bricawa.com/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="小米12" scheme="https://bricawa.com/tags/%E5%B0%8F%E7%B1%B312/"/>
-    
     <category term="Magisk" scheme="https://bricawa.com/tags/Magisk/"/>
+    
+    <category term="小米12" scheme="https://bricawa.com/tags/%E5%B0%8F%E7%B1%B312/"/>
     
   </entry>
   
@@ -162,9 +162,9 @@
     <category term="折腾日记" scheme="https://bricawa.com/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="Magisk" scheme="https://bricawa.com/tags/Magisk/"/>
-    
     <category term="小米Mix2s" scheme="https://bricawa.com/tags/%E5%B0%8F%E7%B1%B3Mix2s/"/>
+    
+    <category term="Magisk" scheme="https://bricawa.com/tags/Magisk/"/>
     
   </entry>
   
@@ -254,13 +254,13 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
-    
-    <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
-    
     <category term="建站" scheme="https://bricawa.com/tags/%E5%BB%BA%E7%AB%99/"/>
     
     <category term="未成年" scheme="https://bricawa.com/tags/%E6%9C%AA%E6%88%90%E5%B9%B4/"/>
+    
+    <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
+    
+    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
     
   </entry>
   
@@ -318,9 +318,9 @@
     <category term="折腾日记" scheme="https://bricawa.com/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="DSM" scheme="https://bricawa.com/tags/DSM/"/>
-    
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
+    
+    <category term="DSM" scheme="https://bricawa.com/tags/DSM/"/>
     
   </entry>
   
@@ -380,11 +380,11 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="Linux" scheme="https://bricawa.com/tags/Linux/"/>
-    
     <category term="DNS" scheme="https://bricawa.com/tags/DNS/"/>
     
     <category term="Switch Lite" scheme="https://bricawa.com/tags/Switch-Lite/"/>
+    
+    <category term="Linux" scheme="https://bricawa.com/tags/Linux/"/>
     
     <category term="Clash" scheme="https://bricawa.com/tags/Clash/"/>
     
@@ -415,13 +415,13 @@
     <category term="服务器" scheme="https://bricawa.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     
-    <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
-    
     <category term="Debian" scheme="https://bricawa.com/tags/Debian/"/>
     
     <category term="Ubuntu" scheme="https://bricawa.com/tags/Ubuntu/"/>
     
     <category term="群晖" scheme="https://bricawa.com/tags/%E7%BE%A4%E6%99%96/"/>
+    
+    <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
   </entry>
   
@@ -541,9 +541,9 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
-    
     <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
+    
+    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
     
   </entry>
   
