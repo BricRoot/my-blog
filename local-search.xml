@@ -51,9 +51,9 @@
     
     <tags>
       
-      <tag>Magisk</tag>
-      
       <tag>小米12</tag>
+      
+      <tag>Magisk</tag>
       
     </tags>
     
@@ -134,9 +134,9 @@
     
     <tags>
       
-      <tag>小米Mix2s</tag>
-      
       <tag>Magisk</tag>
+      
+      <tag>小米Mix2s</tag>
       
     </tags>
     
@@ -219,13 +219,13 @@
       
       <tag>Github</tag>
       
-      <tag>建站</tag>
-      
-      <tag>未成年</tag>
+      <tag>CDN</tag>
       
       <tag>CloudFlare</tag>
       
-      <tag>CDN</tag>
+      <tag>建站</tag>
+      
+      <tag>未成年</tag>
       
     </tags>
     
@@ -337,11 +337,11 @@
       
       <tag>Github</tag>
       
+      <tag>Linux</tag>
+      
       <tag>DNS</tag>
       
       <tag>Switch Lite</tag>
-      
-      <tag>Linux</tag>
       
       <tag>Clash</tag>
       
@@ -403,9 +403,9 @@
       
       <tag>Github</tag>
       
-      <tag>Hexo</tag>
-      
       <tag>Linux</tag>
+      
+      <tag>Hexo</tag>
       
     </tags>
     
@@ -488,9 +488,9 @@
       
       <tag>Github</tag>
       
-      <tag>CloudFlare</tag>
-      
       <tag>CDN</tag>
+      
+      <tag>CloudFlare</tag>
       
     </tags>
     
