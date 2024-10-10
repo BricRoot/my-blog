@@ -51,35 +51,6 @@
   </entry>
   
   <entry>
-    <title>小米12的优化</title>
-    <link href="https://bricawa.com/posts/15001/"/>
-    <id>https://bricawa.com/posts/15001/</id>
-    <published>2024-03-25T01:35:25.000Z</published>
-    <updated>2024-08-25T10:58:39.680Z</updated>
-    
-    <content type="html"><![CDATA[<p>博主在2023年11月25号在海鲜市场购买了一台小米12，之前是用小米Mix2s的，然后买了一台红米Note11TPro，这台手机被商家坑惨了，闪光灯有问题，屏幕有问题，还有一些奇怪的毛病，完完全全就是一台炸弹机<br>在2023年11月23号，我把Switch卖了之后就换了小米12了，当时没有看过任何的测评，感觉小米12，曲面屏，小屏，对称扬声器，骁龙8，应该很牛逼吧<br>曲面屏的手机一直没有体验过，而小屏一直是我所追求的，我自己觉得这俩搭配在一块可以说是绝配<br>小米12的扬声器音质听感舒适，加上模块加持，有着优秀的音效体验，然而，当玩游戏时，手持姿势可能会无意中挡住扬声器(沉默一下…)<br>接下来就是火龙8，刷个视频什么的很容易飚到四十多度，如果删除了温控，玩游戏甚至可以到达五十多度，现在知道火龙的威力了<br>下面是我自己优化的过程，因为我对温度不敏感，只要能流畅就行了</p><h3 id="Magisk模块推荐"><a href="#Magisk模块推荐" class="headerlink" title="Magisk模块推荐"></a>Magisk模块推荐</h3><p><img src="/img/%E5%B0%8F%E7%B1%B312%E7%9A%84%E4%BC%98%E5%8C%96/1.jpg"><br>模块的简介介绍的很详细了，这里就不做多赘述了</p><h4 id="模块下载链接："><a href="#模块下载链接：" class="headerlink" title="模块下载链接："></a>模块下载链接：</h4><p><strong>Haptic_RE</strong><br>下载: <a href="https://www.123pan.com/s/kGi9jv-0Kwuh.html">123云盘</a> 密码: 0809<br><strong>HSX - 设备音频IO深度处理</strong><br>下载：<a href="https://github.com/HuberHaYu/UpMod">Github</a><br><strong>Re:Kernel - Lite (5.10)</strong><br>下载：<a href="https://down.app.myflv.cn/ReKernel">官方网盘</a><br><strong>Scene的附加模块(二)</strong><br>下载：官方APP提供下载<br><strong>Xiaomi 12S 缩小挖孔遮罩</strong><br>下载：<a href="https://hiyorin.top/file/magisk/reducefrontsize12S.zip">官方直链</a><br><strong>Zygisk - LSPosed</strong><br>下载：<a href="https://github.com/mywalkb/LSPosed_mod">Github</a><br><strong>墓碑附加模块</strong><br>下载：<a href="https://down.app.myflv.cn/%E5%A2%93%E7%A2%91%E9%99%84%E5%8A%A0%E6%A8%A1%E5%9D%97.zip">官方网盘</a><br><strong>音量键极速救砖</strong><br>下载：<a href="https://www.123pan.cn/s/uH08Vv-OiwJH">123云盘</a></p><h3 id="LSPosed模块推荐"><a href="#LSPosed模块推荐" class="headerlink" title="LSPosed模块推荐"></a>LSPosed模块推荐</h3><p>这些是我自己在使用的LSPosed模块，大家可以在模块仓库里面搜索，在谷歌，酷安搜索都可以，都有介绍<br><img src="/img/%E5%B0%8F%E7%B1%B312%E7%9A%84%E4%BC%98%E5%8C%96/2.jpg"></p><h3 id="神奇代码"><a href="#神奇代码" class="headerlink" title="神奇代码"></a>神奇代码</h3><p>下面的代码可以按自己的需求自己增加，请把代码加到system.prop文件里面，默认的system分区的没有挂载权限，我们可以添加到模块的system.prop，模块的system.prop一般在<strong>&#x2F;data&#x2F;adb&#x2F;modules&#x2F;模块名称&#x2F;</strong>这个目录里面，有些模块可能没有system.prop文件，可以换一个模块目录</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-comment">## 高级材质2.0</span><br><span class="hljs-attr">persist.sys.background_blur_supported</span>=<span class="hljs-literal">true</span><br><span class="hljs-attr">persist.sys.background_blur_status_default</span>=<span class="hljs-literal">false</span><br><span class="hljs-attr">persist.sys.background_blur_version</span>=<span class="hljs-number">2</span><br><span class="hljs-comment">## 游戏倍速</span><br><span class="hljs-attr">debug.game.video.support</span>=<span class="hljs-literal">true</span><br><span class="hljs-attr">debug.game.video.speed</span>=<span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure><p>以上就是我自己优化小米12的过程，其中Magisk模块<strong>Re:Kernel - Lite (5.10)<strong>，</strong>Scene附加模块(二)<strong>，</strong>墓碑附加模块</strong>和Lsposed模块<strong>NoActive</strong>，<strong>AppRetention</strong>这些是我配合着用的，火龙8的温度我是压不住的了，只能把流畅度拉高<br>下面是我自己用小米12拍摄的一些图片，相机是使用了莱卡相机<br>莱卡相机下载: <a href="https://www.123pan.com/s/HiGLVv-R7Vjv.html">123云盘</a></p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/%E5%B0%8F%E7%B1%B312%E7%9A%84%E4%BC%98%E5%8C%96/%E6%A0%B7%E7%89%87/IMG_20240502_180949.jpg"></div><div class="group-image-wrap"><img src="/img/%E5%B0%8F%E7%B1%B312%E7%9A%84%E4%BC%98%E5%8C%96/%E6%A0%B7%E7%89%87/IMG_20240503_174839.jpg"></div><div class="group-image-wrap"><img src="/img/%E5%B0%8F%E7%B1%B312%E7%9A%84%E4%BC%98%E5%8C%96/%E6%A0%B7%E7%89%87/IMG_20240503_183241.jpg"></div></div></div>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;博主在2023年11月25号在海鲜市场购买了一台小米12，之前是用小米Mix2s的，然后买了一台红米Note11TPro，这台手机被商家坑惨了，闪光灯有问题，屏幕有问题，还有一些奇怪的毛病，完完全全就是一台炸弹机&lt;br&gt;在2023年1</summary>
-        
-      
-    
-    
-    
-    <category term="折腾日记" scheme="https://bricawa.com/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="Magisk" scheme="https://bricawa.com/tags/Magisk/"/>
-    
-    <category term="小米12" scheme="https://bricawa.com/tags/%E5%B0%8F%E7%B1%B312/"/>
-    
-  </entry>
-  
-  <entry>
     <title>2023，总结</title>
     <link href="https://bricawa.com/posts/61822/"/>
     <id>https://bricawa.com/posts/61822/</id>
@@ -131,11 +102,11 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="Hexo" scheme="https://bricawa.com/tags/Hexo/"/>
-    
     <category term="Vercel" scheme="https://bricawa.com/tags/Vercel/"/>
     
     <category term="博客" scheme="https://bricawa.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Hexo" scheme="https://bricawa.com/tags/Hexo/"/>
     
   </entry>
   
@@ -254,13 +225,13 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
-    
-    <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
-    
     <category term="建站" scheme="https://bricawa.com/tags/%E5%BB%BA%E7%AB%99/"/>
     
     <category term="未成年" scheme="https://bricawa.com/tags/%E6%9C%AA%E6%88%90%E5%B9%B4/"/>
+    
+    <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
+    
+    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
     
   </entry>
   
@@ -450,9 +421,9 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="Linux" scheme="https://bricawa.com/tags/Linux/"/>
-    
     <category term="Hexo" scheme="https://bricawa.com/tags/Hexo/"/>
+    
+    <category term="Linux" scheme="https://bricawa.com/tags/Linux/"/>
     
   </entry>
   
@@ -541,9 +512,9 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
-    
     <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
+    
+    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
     
   </entry>
   
