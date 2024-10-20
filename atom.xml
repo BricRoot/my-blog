@@ -102,11 +102,11 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
+    <category term="Hexo" scheme="https://bricawa.com/tags/Hexo/"/>
+    
     <category term="Vercel" scheme="https://bricawa.com/tags/Vercel/"/>
     
     <category term="博客" scheme="https://bricawa.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Hexo" scheme="https://bricawa.com/tags/Hexo/"/>
     
   </entry>
   
@@ -196,13 +196,13 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
-    
-    <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
-    
     <category term="建站" scheme="https://bricawa.com/tags/%E5%BB%BA%E7%AB%99/"/>
     
     <category term="未成年" scheme="https://bricawa.com/tags/%E6%9C%AA%E6%88%90%E5%B9%B4/"/>
+    
+    <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
+    
+    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
     
   </entry>
   
@@ -417,9 +417,9 @@
     
     <category term="Github" scheme="https://bricawa.com/tags/Github/"/>
     
-    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
-    
     <category term="CloudFlare" scheme="https://bricawa.com/tags/CloudFlare/"/>
+    
+    <category term="CDN" scheme="https://bricawa.com/tags/CDN/"/>
     
   </entry>
   
